@@ -4,112 +4,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michelle Montoya Rocca</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: "Lucida Sans", "Lucida Grande", Verdana, sans-serif;
-            background-color: rgb(255, 253, 110);
-            color: #333;
-            line-height: 1.6;
-        }
-        header {
-            background-color: rgb(162, 137, 209);
-            text-align: center;
-            padding: 2rem 1rem;
-        }
-        header h1 {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-size: 2.5rem;
-            color: #fff;
-            margin-bottom: 0.5rem;
-        }
-        header p.subtitulo {
-            color: #EEE;
-            font-size: 1.1rem;
-        }
-        nav {
-            margin-top: 1rem;
-        }
-        nav a {
-            margin: 0 0.8rem;
-            text-decoration: none;
-            color: #fff;
-            font-weight: bold;
-        }
-        main {
-            max-width: 900px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-            background-color: #FFF;
-            border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        }
-        section {
-            margin-bottom: 2rem;
-        }
-        section h2 {
-            font-size: 1.8rem;
-            margin-bottom: 0.5rem;
-            border-bottom: 2px solid rgb(162, 137, 209);
-            display: inline-block;
-            padding-bottom: 0.2rem;
-        }
-        .mi-foto {
-            display: block;
-            max-width: 200px;
-            margin: 1rem auto;
-            border-radius: 50%;
-            border: 3px solid rgb(162, 137, 209);
-        }
-        ul, ol {
-            margin-left: 1.5rem;
-            margin-top: 0.5rem;
-            margin-bottom: 0.5rem;
-        }
-        a {
-            color: rgb(162, 137, 209);
-        }
-        .seccion-proyectos article {
-            border: 1px solid #DDD;
-            border-radius: 6px;
-            padding: 1rem;
-            margin-bottom: 1rem;
-        }
-        .seccion-proyectos article h3 {
-            margin-bottom: 0.5rem;
-            font-size: 1.4rem;
-            color: rgb(162, 137, 209);
-        }
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background-color: #f5f5f5;
-            font-size: 0.9rem;
-        }
-        footer a {
-            color: #333;
-        }
-    </style>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Lucida Sans", "Lucida Grande", Verdana, sans-serif;
+      background-color: rgb(255, 253, 110);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .foto-superior {
+      width: 100%;
+      background-color: transparent; 
+      text-align: center;
+      padding: 1rem 0 0;
+    }
+    .foto-superior img {
+      width: 150px;            
+      height: 150px;           
+      border-radius: 50%;     
+      border: 4px solid #fff;  
+      object-fit: cover;       
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    /* HEADER con fondo morado */
+    header {
+      background-color: rgb(162, 137, 209);
+      text-align: center;
+      padding: 3rem 1rem 2rem; 
+      margin-top: -1rem;      
+    }
+    header h1 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 2.5rem;
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+    header p.subtitulo {
+      color: #EEE;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 0.8rem;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    /* CONTENIDO PRINCIPAL */
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      background-color: #FFF;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+      border-bottom: 2px solid rgb(162, 137, 209);
+      display: inline-block;
+      padding-bottom: 0.2rem;
+    }
+    ul, ol {
+      margin-left: 1.5rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    a {
+      color: rgb(162, 137, 209);
+    }
+    .seccion-proyectos article {
+      border: 1px solid #DDD;
+      border-radius: 6px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+    .seccion-proyectos article h3 {
+      margin-bottom: 0.5rem;
+      font-size: 1.4rem;
+      color: rgb(162, 137, 209);
+    }
+    .detalle-empleo {
+      margin-top: 0.5rem;
+      margin-left: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #f5f5f5;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: #333;
+    }
+  </style>
 </head>
 <body>
 
-    <header>
-        <img src="hackaton.jpg" alt="Foto en la la hackaton de la IEEE">
-        <h1>Michelle Montoya Rocca</h1>
-        <p class="subtitulo">Estudiante de Ciencia de la Computación en USIL · Lima, Perú</p>
-        <nav>
-            <a href="#introduccion">Sobre mí</a>
-            <a href="#educacion">Educación</a>
-            <a href="#proyectos">Proyectos</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#hobbies">Hobbies</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
-    </header>
+  <div class="foto-superior">
+    <img src="hackaton.jpg" alt="Foto  en la Hackathon IEEE">
+    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
+    </p>
+  </div>
+
+  <header>
+    <h1>Michelle Montoya Rocca</h1>
+    <p class="subtitulo">Estudiante de Ingeniería de Software (8vo ciclo) – USIL · Lima, Perú</p>
+    <nav>
+      <a href="#introduccion">Sobre mí</a>
+      <a href="#educacion">Educación</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#competencias">Competencias</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
 
     <main>
         <!-- SECCIÓN 1: INTRODUCCIÓN -->
@@ -123,7 +150,7 @@
         <section id="educacion">
             <h2>2. Educación</h2>
             <ul>
-                <li><strong>USIL</strong> – Ingeniería de Software (8vo ciclo). 2022–Actualidad.</li>
+                <li><strong>USIL</strong> – Ingeniería de Software (8vo ciclo). 2021–Actualidad.</li>
                 <li><strong>SANTA ROSA DE BARRANCO</strong> – Educación secundaria. Estudios concluidos en 2020.</li>
                 <li><strong>INSTITUTO NACIONAL DE PARAMÉDICOS DEL PERÚ (INAPP)</strong> – Formación de Paramédico. Actualmente en curso.</li>
             </ul>
@@ -264,8 +291,8 @@
                 <li><strong>Instagram:</strong> <a href="https://www.instagram.com/michaelmontoyarocca?igsh=bGxrczJveDNzbDV4" target="_blank" rel="noopener">instagram</a> </li>
             </ul>
             <li><strong>Descarga mi CV:</strong> 
-            <a href="Michelle_Montoya_Rocca_CV.pdf" download>
-                Michelle_Montoya_Rocca_CV.pdf
+            <a href="Michelle%20Montoya%20Rocca%20CV.pdf" download>
+              Descargar mi CV (PDF)
             </a>
         </li>
         </section>
