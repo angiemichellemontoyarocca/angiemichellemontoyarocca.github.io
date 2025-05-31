@@ -1,74 +1,239 @@
 <!DOCTYPE html>
-<html>
-    <body>
-<title>Michelle Montoya Rocca</title>
-    <head>
-        <style>
-            body {
-    background-color: rgb(255, 253, 110)
-}
-        </style>
-   
-        <style>
-        .myDiv {
-            background-color: rgb(162, 137, 209);    
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Montoya Rocca</title>
+    <!-- CSS en línea para simplificar el ejemplo; puedes extraerlo a un archivo separado -->
+    <style>
+        /* Reset básico de márgenes y paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Lucida Sans", "Lucida Grande", Verdana, sans-serif;
+            background-color: rgb(255, 253, 110);
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: rgb(162, 137, 209);
             text-align: center;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-          }
-            </style>
-        </head>
-        <div class="myDiv">
-            <h1>Angie Michelle Montoya Rocca</h1>
-          </div>
-          
+            padding: 2rem 1rem;
+        }
+        header h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 2.5rem;
+            color: #fff;
+            margin-bottom: 0.5rem;
+        }
+        header p.subtitulo {
+            color: #EEE;
+            font-size: 1.1rem;
+        }
+        nav {
+            margin-top: 1rem;
+        }
+        nav a {
+            margin: 0 0.8rem;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            background-color: #FFF;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            border-bottom: 2px solid rgb(162, 137, 209);
+            display: inline-block;
+            padding-bottom: 0.2rem;
+        }
+        .mi-foto {
+            display: block;
+            max-width: 200px;
+            margin: 1rem auto;
+            border-radius: 50%;
+            border: 3px solid rgb(162, 137, 209);
+        }
+        ul, ol {
+            margin-left: 1.5rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        a {
+            color: rgb(162, 137, 209);
+        }
+        .seccion-proyectos article {
+            border: 1px solid #DDD;
+            border-radius: 6px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        .seccion-proyectos article h3 {
+            margin-bottom: 0.5rem;
+            font-size: 1.4rem;
+            color: rgb(162, 137, 209);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #f5f5f5;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
 
-<p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">1. Introducción</p>
-<p>Hola, mi nombre es Angie Montoya Rocca, tengo 17 años y vivo en Lima-Perú, en el distrito de Santiago de Surco. Actualmente, estudio en la <a href="www.usil.edu.pe">USIL</a> en la carrera de Computer Sciencie. En esta página encontrarán los datos más importantes de mí, espero que les guste.  </p>
+    <!-- HEADER CON NAVEGACIÓN -->
+    <header>
+        <!-- SUGERENCIA DE FOTO: pon aquí tu retrato profesional o una fotografía tuya estudiante (200×200 px). -->
+        <img src="mi_foto_perfil.jpg" alt="Foto de Michael Montoya Rocca" class="mi-foto">
+        <h1>Michael Montoya Rocca</h1>
+        <p class="subtitulo">Estudiante de Ciencia de la Computación en USIL · Lima, Perú</p>
+        <nav>
+            <a href="#introduccion">Sobre mí</a>
+            <a href="#educacion">Educación</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
 
-<p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">2. Hobbies</p>
-<ul>
-    <li>Editar videos</li>
-    <li>Jugar futbol</li>
-    <li>Jugar videojuegos</li>
-    <li>Vivir la vida</li>
-</ul>
+    <main>
+        <!-- SECCIÓN 1: INTRODUCCIÓN -->
+        <section id="introduccion">
+            <h2>1. Sobre mí</h2>
+            <p>¡Hola! Mi nombre es <strong>Michael Montoya Rocca</strong>.Tengo 21 años y actualmente estudio Ingeniería de Ciencia de la Computación en la <a href="https://www.usil.edu.pe" target="_blank" rel="noopener">USIL</a>.</p>
+            <p>Me apasiona el desarrollo de software, la inteligencia artificial aplicada a la visión por computadora y el procesamiento de lenguaje natural. A lo largo de mis estudios, he combinado proyectos académicos (desde programación competitiva hasta sistemas de reconocimiento de Lengua de Señas Peruana) con actividades extracurriculares en QA, metodologías ágiles y cursos de ciberseguridad.</p>
+        </section>
 
-<p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">3. Redes Sociales</p>
-<p>En mis redes me encuentran como Angie Montoya en facebook y en Instagram </p>
-<p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Plataformas que mas uso</p>
-<ol>
-    <li><a href="https://www.youtube.com/">Youtube</a></li>
-    <li><a href="https://www.netflix.com">Netlix </a></li>
-    <li><a href="https://www.twitch.tv">Twitch</a></li>
-</ol>
+        <!-- SECCIÓN 2: EDUCACIÓN -->
+        <section id="educacion">
+            <h2>2. Educación</h2>
+            <ul>
+                <li><strong>2023–Presente:</strong> Ingeniería de Ciencia de la Computación, <a href="https://www.usil.edu.pe" target="_blank" rel="noopener">USIL</a>.</li>
+                <li><strong>2017–2022:</strong> Educación secundaria en [Colegio donde estudiaste].</li>
+                <li><strong>Certificaciones relevantes:</strong>
+                    <ul>
+                        <li>Re-certificación en Azure (2025).</li>
+                        <li>Curso de Programación Competitiva 2025-1 (USIL).</li>
+                        <li>Curso de Inducción Operativa – Módulo Frescos 1 (2025).</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
 
-<p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">4. Videojuegos favoritos</p> 
-<p>Mis videojuegos favoritos son minecraft, amongas y me gusta ver gameplays de juegos como PUBG y GtaV </p>
+        <!-- SECCIÓN 3: PROYECTOS DESTACADOS -->
+        <section id="proyectos" class="seccion-proyectos">
+            <h2>3. Proyectos destacados</h2>
 
-<p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">5. Series Favoritas</p>
-<ol>
-    <li>thebigbangtheory</li>
-    <img src="./thebigbang.jpg" alt="The big bang theory" width="390" height="200">
-    <li>Friends</li>
-    <img src="./friends.jpg" alt="Friends">
-    <li>Modern Family </li>
-    <img src="modernfamily.jpg" alt="Modern Family" width="270" height="380">
-</ol>
+            <article>
+                <h3>Reconocimiento de Lengua de Señas Peruana (LSP) y traducción a quechua</h3>
+                <p>Desarrollé un sistema en Python que utiliza una arquitectura de CNN + Self-Attention + LSTM para detectar en tiempo real señas de la Lengua de Señas Peruana y traducirlas al quechua cusqueño. El flujo incluye:</p>
+                <ul>
+                    <li>Preprocesamiento fotograma a fotograma: conversión a escala de grises, segmentación con MediaPipe y Lucas-Kanade para seguimiento de puntos clave.</li>
+                    <li>Extracción de características con VGG-16.</li>
+                    <li>Construcción y entrenamiento del modelo con un conjunto de ~500 videos, dividido en 70/10/20 (train/val/test).</li>
+                    <li>Evaluación con métricas Top-k y BLEU para la calidad de traducción.</li>
+                </ul>
+            </article>
 
-<p>Aquí les dejo los links de mis compañeros, no es virus…o si? xd (es broma) </p>
-<ul>
-    <li><a href="https://gabrielalvarado.me/">Gabriel Alvarado</a></li>
-    <li><a href="https://jobasi128.github.io/">Jonathan Barzola</a></li>
-    <li><a href="https://skeletus.github.io/">Jesús Arias</a></li>
-    <li><a href="http://www.danielquichepalacios.com/">Daniel Quiche</a></li>
-    <li><a href="https://www.claudiafernandarejasruiz.me/">Claudia Rejas</a></li>
-    <li><a href=" https://wolfzerov.github.io/WolfZero.github.io/">Franco Villalobos</a></li>
-    <li><a href="https://king-pacaya.github.io/">Isaac Pacaya</a></li>
-    <li><a href="http://adrianpinado.me/">Adrián Pinado</a></li>
+            <article>
+                <h3>Diccionario español–quechua (variante cusqueña)</h3>
+                <p>Lideré la construcción y validación de un diccionario bilingüe español–quechua cusqueño con más de 13,500 entradas reales. El proceso incluyó:</p>
+                <ul>
+                    <li>Recolección de datos de la Academia Mayor de la Lengua Quechua (Cuzco).</li>
+                    <li>Eliminación de duplicados y etiquetas (“Bot.,” “Geog.,” etc.).</li>
+                    <li>Transformación a formato JSON UTF-8 listo para entrenar modelos de NLP.</li>
+                </ul>
+            </article>
 
-</ul>
+            <article>
+                <h3>Competencias de Programación</h3>
+                <p>Participé en ejercicios de <em>Competitive Programming</em> en USIL (curso 2025-1). Algunos ejemplos:</p>
+                <ul>
+                    <li><strong>Knight’s Tour</strong> con backtracking.</li>
+                    <li><strong>Máxima suma de subarreglo</strong> usando algoritmo de Kadane.</li>
+                    <li><strong>Generación de tableros de Sudoku</strong> con técnica de backtracking.</li>
+                </ul>
+            </article>
 
+            <article>
+                <h3>Sistema modular de energía renovable <em>“Go Green”</em></h3>
+                <!-- SUGERENCIA DE FOTO: foto de tu prototipo en Tinkercad o diagrama del circuito con Arduino. -->
+                <p>Diseñé un prototipo en Arduino para simular un panel solar (dos LDR) que orienta servos automáticamente, gestiona carga de batería y controla iluminación. Características:</p>
+                <ul>
+                    <li>Seguimiento solar con dos LDR y servomotores.</li>
+                    <li>Monitoreo de voltaje de batería (divisor de tensión).</li>
+                    <li>Control manual/automático de LED principal y LEDs indicadores de nivel de carga.</li>
+                    <li>Visualización de datos en pantalla LCD I2C y monitor serial.</li>
+                </ul>
+            </article>
+        </section>
 
+        <!-- SECCIÓN 4: HABILIDADES -->
+        <section id="habilidades">
+            <h2>4. Habilidades técnicas</h2>
+            <ul>
+                <li><strong>Lenguajes de programación:</strong> Python, C++, C# (ASP.NET), JavaScript (Angular).</li>
+                <li><strong>Frameworks y librerías:</strong> TensorFlow, PyTorch, MediaPipe, OpenCV, Flask/Django, ASP.NET Web API, Angular 8+</li>
+                <li><strong>Bases de datos:</strong> PostgreSQL, MSSQL</li>
+                <li><strong>Herramientas de desarrollo:</strong> Visual Studio Code, Visual Studio 2019/2022, Postman, Git/GitHub</li>
+                <li><strong>Cloud y DevOps:</strong> Azure (certificación en curso), GitHub Actions, Jenkins (básico), Docker (básico)</li>
+                <li><strong>Metodologías:</strong> Agile/Scrum, QA según estándares IEEE 829, pruebas unitarias con JUnit 5</li>
+                <li><strong>Competencias adicionales:</strong> Programación competitiva (estructuras de datos, algoritmos de grafos, Programación Dinámica), ciberseguridad básica (Google Dorks, reconocimiento pasivo)</li>
+            </ul>
+        </section>
+
+        <!-- SECCIÓN 5: HOBBIES E INTERESES -->
+        <section id="hobbies">
+            <h2>5. Hobbies e intereses</h2>
+            <p>Además de mi pasión por la tecnología y la programación, me gusta:</p>
+            <ul>
+                <li>Editar videos y contenido multimedia.</li>
+                <li>Jugar fútbol con amigos.</li>
+                <li>Jugar videojuegos (Minecraft, Among Us, PUBG, GTA V) y seguir gameplays en YouTube/Twitch.</li>
+                <li>Participar en competiciones de programación y desafíos de algoritmos.</li>
+                <li>Aprender nuevos idiomas (español nativo, inglés avanzado y francés básico).</li>
+                <li>Seguir series de comedia y documentales sobre tecnología y ciencia.</li>
+            </ul>
+        </section>
+
+        <!-- SECCIÓN 6: CONTACTO Y REDES SOCIALES -->
+        <section id="contacto">
+            <h2>6. Contacto</h2>
+            <p>Puedes encontrarme en:</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:michael.montoya@usil.edu.pe">michael.montoya@usil.edu.pe</a> (si quieres poner tu correo real).</li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/michael-montoya-rocca" target="_blank" rel="noopener">linkedin.com/in/michael-montoya-rocca</a> (crea tu perfil y pega el enlace).</li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/tu_usuario" target="_blank" rel="noopener">github.com/tu_usuario</a> (reemplaza “tu_usuario” con tu usuario de GitHub).</li>
+                <li><strong>Instagram:</strong> <a href="https://www.instagram.com/tu_usuario" target="_blank" rel="noopener">@tu_usuario</a> (si lo deseas).</li>
+            </ul>
+            <p>Si prefieres, descarga mi CV en PDF:</p>
+            <p><a href="Curriculum_Michael_Montoya.pdf" download>Descargar CV (PDF)</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Michael Montoya Rocca. Todos los derechos reservados.</p>
+        <p>Diseño web por mí mismo. Si quieres ver el código fuente, <a href="https://github.com/angiemichellemontoyarocca" target="_blank" rel="noopener">haz clic aquí</a>.</p>
+    </footer>
 
 </body>
 </html>
